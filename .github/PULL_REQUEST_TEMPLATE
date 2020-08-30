@@ -1,33 +1,10 @@
-=================================================================
-Use a dedicated feature branch
-=================================================================
+Thanks for your interest in contributing to this package.
 
-Please use a dedicated feature branch for your feature request, instead of asking us to merge "your-fork/master" into the "origin/master".  The use of dedicated branches makes it much more convenient to deal with pull-requests, especially when using Magit to do so.
+This repository is only a mirror.
 
-If you were about to open a pull-request asking us to merge your version of "master", then see [1] for instructions on how to quickly fix that and some information on why we ask you to do so.
+⚠️ Please do not open a pull-request here! ⚠️
 
-Additionally we ask you to allow us to push to the branch you want us to merge.  We might want to push additional commits and/or make minor changes.  Please make sure the box next to "Allow edits from maintainers" is checked before creating the pull-request.
+🆘 Visit https://emacsmirror.net/stats/upstreams.html to lookup the homepage or upstream repository of this package.
 
-  [1]: https://github.com/magit/magit/wiki/Dedicated-pull-request-branches
+(If you are opening a pull-request at https://github.com/emacsattic/.github, then please disregard the above.  It does not apply in that case, but for technical reasons I cannot prevent it from being shown to you anyway.)
 
-=================================================================
-Do NOT use Github to edit files and create commit messages
-=================================================================
-
-Unless you are aware of all the pitfalls and take great care to avoid them, the use of Github results in many small defects, including but not limited to trailing whitespace, commit messages containing overlong lines and no newline at the very end, and "GitHub <noreply@github.com>" being used as the committer.  The last one cannot even be avoided, which I consider as an affront.
-
-Github is an insufficient interface for editing files and creating commits.  Please don't do it when contributing to this project.
-
-=================================================================
-What you should write here
-=================================================================
-
-Please summarize the changes made in the commits.  Explain why you are making these changes, not just what changes you are making.  This also applies to the commit messages.
-
-=================================================================
-How to update the manual
-=================================================================
-
-If this project has a manual and you make changes to that, then edit only "PROJECT.org".  Do not manually edit "PROJECT.texi".  The latter has to be generated from the former.  If you want to do that yourself, then follow the instructions at [2].  Otherwise a maintainer will do it and amend that to your commit.
-
-  [2]: https://github.com/magit/magit/wiki/Documentation-tools-and-conventions
